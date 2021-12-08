@@ -1,0 +1,30 @@
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="col-4"></div>
+            <div class="col-4">   
+            <h1>Add Student Details !!!</h1>
+            <form [formGroup]="studentForm"(ngsubmit)="add()">
+            <label for="fname">Firstname</label>
+            <input type="text " id="fname" ><br>
+            <label for="lname">LastName</label>
+            <input type="text" id="lname"> <br>
+            <label for="rno">Roll Number</label>
+            <input type="text" name="" id="rno"> <br>
+            <label for="age">Age</label>
+            <input type="text" name="" id="age"> <br>
+            <label for="">Gender</label>
+            <input type="radio" name="gndr" id="">
+            <label for="">male</label>
+            <input type="radio" name="gndr" id="">
+            <label for="">female</label>
+            <input type="radio" name="gndr" id="">
+            <label for="">other</label><br>
+            <input type="submit" value="ADD">
+            </form>
+            
+</div></div>
+<div class="col-4"></div>     
+    
+</div>
+</body>
